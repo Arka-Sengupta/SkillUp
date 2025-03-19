@@ -497,6 +497,7 @@ function init() {
 document.addEventListener('DOMContentLoaded', init);
 
 
+
  // DOM Elements
  const themeToggle = document.getElementById('theme-toggle');
  const themeLabel = document.getElementById('theme-label');
@@ -526,3 +527,4 @@ document.addEventListener('DOMContentLoaded', init);
      themeLabel.textContent = 'Dark Mode';
    }
  });
+
