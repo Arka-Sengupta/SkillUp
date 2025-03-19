@@ -91,11 +91,6 @@ In today’s competitive academic and professional world, many individuals lack 
 
 ---
 
-## 🎨 **UI/UX Preview**
-![SkillSwap Preview](./assets/preview.png)
-
----
-
 ## ⚡️ **Future Enhancements**
 - Add real-time chat and messaging system.
 - Integrate AI-based skill matching for more precise connections.
