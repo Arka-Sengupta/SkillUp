@@ -5,13 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skill Up</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">  
+  <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet"> 
+  
 </head>
 <body>
   <div class="container">
     <header>
       <h1>Skill Up</h1>
       <p class="tagline">Enhance your skills with <em>Peers</em></p>
+      <div class="theme-toggle">
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider"></span>
+        </label>
+        <span id="theme-label">Dark Mode</span>
+      </div>
     </header>
     
     <div class="tabs">
@@ -35,7 +46,7 @@
                 <div class="filter-row">
                   <div class="filter-group">
                     <label for="college-filter">College Email Domain</label>
-                    <input type="text" id="college-filter" placeholder="e.g. harvard.edu">
+                    <input type="text" id="college-filter" placeholder="e.g. name.regno@vitap...">
                   </div>
                   <div class="filter-group">
                     <label for="year-filter">Graduation Year</label>
@@ -94,7 +105,7 @@
                 <div class="form-group">
                   <div class="label-row">
                     <label for="login-password">Password</label>
-                    <a href="#" class="link">Forgot password?</a>
+                    <!-- <a href="#" class="link">Forgot password?</a> -->
                   </div>
                   <input type="password" id="login-password" required>
                 </div>
