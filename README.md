@@ -1,4 +1,4 @@
-# 🎯 **SkillSwap - Connect. Learn. Grow.**
+# 🎯 **SkillUp - Connect. Learn. Grow.**
 
 ## 🏆 **Hackathon Project Submission - GDG Hackathon 2025**  
 **Team Name:** The Connectors  
@@ -13,11 +13,11 @@
 
 ## 🚀 **Project Overview**
 
-SkillSwap is an innovative web-based platform that connects students and professionals across disciplines to **exchange knowledge and skills.** The platform fosters collaborative learning by matching users based on their expertise and interests, creating a dynamic skill-sharing environment.
+SkillUp is an innovative web-based platform that connects students and professionals across disciplines to **exchange knowledge and skills.** The platform fosters collaborative learning by matching users based on their expertise and interests, creating a dynamic skill-sharing environment.
 
 ### 🎯 **Problem Statement**
 In today’s competitive academic and professional world, many individuals lack opportunities to learn and practice new skills. While courses and tutorials are abundant, the **human connection of peer-to-peer learning** is often missing.  
-**SkillSwap** solves this by providing a platform where users can **learn from and teach each other,** creating a win-win situation.
+**SkillUp** solves this by providing a platform where users can **learn from and teach each other,** creating a win-win situation.
 
 ---
 
@@ -80,7 +80,7 @@ In today’s competitive academic and professional world, many individuals lack 
 
 ## 📂 **Project Structure**
 ```
-/SkillSwap
+/SkillUp
 ├── /assets
 ├── /images
 ├── index.html    # Main landing page
@@ -104,4 +104,4 @@ We extend our gratitude to the **Google Developer Group (GDG)** for organizing t
 
 ---
 
-🎉 **SkillSwap - Empowering Learning Through Connection!** 🎉
+🎉 **SkillUp - Empowering Learning Through Connection!** 🎉
