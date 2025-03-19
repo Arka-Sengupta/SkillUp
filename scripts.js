@@ -495,3 +495,36 @@ function init() {
 
 // Call init when the DOM is loaded
 document.addEventListener('DOMContentLoaded', init);
+
+
+
+ // DOM Elements
+ const themeToggle = document.getElementById('theme-toggle');
+ const themeLabel = document.getElementById('theme-label');
+ const body = document.body;
+ 
+ // Check user's preference from localStorage
+ const savedTheme = localStorage.getItem('theme');
+ if (savedTheme === 'dark') {
+   body.classList.add('dark-mode');
+   themeToggle.checked = true;
+   themeLabel.textContent = 'Light Mode';
+ } else {
+   body.classList.remove('dark-mode');
+   themeToggle.checked = false;
+   themeLabel.textContent = 'Dark Mode';
+ }
+ 
+ // Toggle Dark Mode
+ themeToggle.addEventListener('change', () => {
+   if (themeToggle.checked) {
+     body.classList.add('dark-mode');
+     localStorage.setItem('theme', 'dark');
+     themeLabel.textContent = 'Light Mode';
+   } else {
+     body.classList.remove('dark-mode');
+     localStorage.setItem('theme', 'light');
+     themeLabel.textContent = 'Dark Mode';
+   }
+ });
+
