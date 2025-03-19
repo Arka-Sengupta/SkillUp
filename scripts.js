@@ -252,7 +252,7 @@ function handleRegister(e) {
   saveCurrentUser();
   updateUIForLoggedInUser();
   
-  alert(`Welcome to SkillSwap Campus, ${name}!`);
+  alert(`Welcome to SkillUp ${name}!`);
   switchTab('browse');
 }
 
@@ -456,7 +456,7 @@ logoutButton.addEventListener('click', () => {
 
 // Delete profile functionality
 deleteProfileButton.addEventListener('click', () => {
-  if (confirm('Are you sure you want to delete your profile? This action cannot be undone.')) {
+  if (confirm('Are you sure you want to delete your SkillUp profile? This action cannot be undone.')) {
     // Remove user from the users array
     users = users.filter(user => user.email !== currentUser.email);
     saveUsers();
