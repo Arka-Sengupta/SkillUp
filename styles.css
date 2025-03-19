@@ -565,3 +565,18 @@ h1 {
     font-size: 0.875rem;
     color: var(--text-color);
   }
+
+  /* Dark Mode Styles for Input Fields */
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  color: white; /* Set text color to white */
+  background-color: var(--card-background); /* Match the card background color */
+  border-color: var(--border-color); /* Match the border color */
+}
+
+/* Placeholder text color in dark mode */
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #9ca3af; /* Use a lighter color for placeholder text */
+}
